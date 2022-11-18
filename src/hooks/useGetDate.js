@@ -26,6 +26,7 @@ export const useGetDate = (weatherInfo) => {
             setWeekDay(currentWeekDay);
         }
 
+        // Get the month and the month day
         const getMonth = () => {
             const allMonths = [
                 "Janeiro", "Fevereiro", "Março",
