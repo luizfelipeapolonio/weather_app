@@ -13,6 +13,7 @@ export const useGetDate = (weatherInfo) => {
             return;
         }
 
+        // Get the week day
         const getWeekDay = () => {
             const weekDay = [
                 "Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira",
