@@ -43,6 +43,7 @@ export const useGetDate = (weatherInfo) => {
             setMonth(monthDate);
         }
 
+        // Get the hour and minutes
         const getTime = () => {
             const hour = date.getHours();
             const minutes = date.getMinutes();
