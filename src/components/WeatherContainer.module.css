@@ -1,0 +1,138 @@
+.container {
+    display: flex;
+    max-width: 60%;
+    min-height: 300px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgb(51, 51, 51, 0.8);
+    border-radius: 10px;
+}
+
+.suggestions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+
+.suggestions button {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 0.5rem;
+    padding: 0.8rem 0.3rem;
+    min-width: 33%;
+    border-radius: 5px;
+    background-color: #d24c1d;
+    color: #f1f1f1;
+    border: 1px solid #d24c1d;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.suggestions button:hover {
+    opacity: 1;
+    border: 1px solid #f1f1f1;
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    min-height: 350px;
+    color: #f1f1f1;
+}
+
+.weather_state {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather_state h1 {
+    font-size: 3.8rem;
+    margin: 1.5rem 0;
+}
+
+.weather_state .city {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather_state .city h2 {
+    margin: 0 1rem;
+}
+
+.weather_state .city img {
+    height: 20px;
+}
+
+.weather_state .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather_state .desc h2{
+    text-transform: capitalize;
+}
+
+.weather .desc img {
+    width: 40px;
+    height: 40px;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date h3 {
+    font-size: 1.4rem;
+}
+
+.date h3:nth-child(2) {
+    margin: 1rem 0;
+}
+
+.weather_state .city svg,
+.weather_state .city h2,
+.weather_state .desc h2,
+.date h2 {
+    font-size: 1.8rem;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    color: #f1f1f1;
+}
+
+.details .feels_like,
+.details .humidity,
+.details .temp_max,
+.details .temp_min,
+.details .wind,
+.details .clouds {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 1rem 0; */
+}
+
+.details p {
+    font-size: 1.7rem;
+}
+
+.error {
+    color: #f1f1f1;
+    text-align: center;
+    margin: auto;
+}

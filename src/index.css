@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(to bottom, #d24c1d, #471443); 
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+}
+
+button, input {
+  border: none;
+}
+
+input {
+  border-radius: 5px;
+}
+
+.hide {
+  display: none;
+}

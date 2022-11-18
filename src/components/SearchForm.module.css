@@ -1,0 +1,38 @@
+.form {
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.form input {
+    background-color: rgb(51, 51, 51, 0.8);
+    color: #dedede;
+    font-size: 1.7rem;
+    padding: 1rem 3.9rem 1rem 1rem;
+    width: 100%;
+    outline: none;
+}
+
+.form input::placeholder {
+    color: #b5b5b5;
+  }
+
+.form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    top: 0;
+    right: 4px;
+    bottom: 0;
+    background-color: transparent;
+    color: #dedede;
+    position: absolute;
+    width: 30px;
+    transition: 0.4s;
+}
+
+.form button:hover {
+    color: #f08763;
+}

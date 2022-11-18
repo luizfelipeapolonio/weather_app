@@ -1,0 +1,12 @@
+.loading_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.loading_container img {
+    width: 60px;
+    height: 60px;
+    margin: 0.5rem 0;
+}
