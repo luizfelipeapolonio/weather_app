@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <p>
-                React City Weather App &copy; 2022
+                City Weather App &copy; 2022
             </p>
         </footer>
     );

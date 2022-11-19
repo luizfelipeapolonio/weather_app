@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    max-width: 60%;
+    max-width: 70%;
     min-height: 300px;
     margin: 2rem auto;
     padding: 2rem;
@@ -40,7 +40,7 @@
     justify-content: space-between;
     width: 70%;
     min-height: 350px;
-    color: #f1f1f1;
+    text-align: center;
 }
 
 .weather_state {
@@ -51,7 +51,7 @@
 }
 
 .weather_state h1 {
-    font-size: 3.8rem;
+    font-size: 4rem;
     margin: 1.5rem 0;
 }
 
@@ -59,6 +59,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.weather_state .city svg {
+    color: #f08763;
 }
 
 .weather_state .city h2 {
@@ -80,8 +84,8 @@
 }
 
 .weather .desc img {
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
 }
 
 .date {
@@ -91,7 +95,7 @@
 }
 
 .date h3 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .date h3:nth-child(2) {
@@ -102,7 +106,7 @@
 .weather_state .city h2,
 .weather_state .desc h2,
 .date h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .details {
@@ -111,8 +115,7 @@
     justify-content: space-around;
     width: 100%;
     margin-left: 1rem;
-    font-size: 1.5rem;
-    color: #f1f1f1;
+    font-size: 1.6rem;
 }
 
 .details .feels_like,
@@ -127,8 +130,34 @@
     /* margin: 1rem 0; */
 }
 
-.details p {
-    font-size: 1.7rem;
+.details .feels_like p,
+.details .humidity p,
+.details .temp_max p,
+.details .temp_min p,
+.details .wind p,
+.details .clouds p {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.details .feels_like p svg,
+.details .humidity p svg,
+.details .temp_max p svg,
+.details .temp_min p svg,
+.details .wind p svg,
+.details .clouds p svg {
+    font-size: 2.1rem;
+    margin-right: 0.6rem;
+    color: #f08763;
+}
+
+.weather,
+.details {
+    background-color: rgba(246, 187, 166, 0.302);
+    color: #f1f1f1;
+    padding: 0.8rem;
+    border-radius: 5px;
 }
 
 .error {
