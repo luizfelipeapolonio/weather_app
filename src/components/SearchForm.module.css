@@ -36,3 +36,40 @@
 .form button:hover {
     color: #f08763;
 }
+
+/* ===== Media Queries ===== */
+@media (max-width: 915px) {
+    .form {
+        width: 40%;
+    }
+}
+
+@media (max-width: 720px) {
+    .form {
+        width: 50%;
+    }
+}
+
+@media (max-width: 540px) {
+    .form {
+        width: 60%;
+    }
+}
+
+@media (max-width: 450px) {
+    .form {
+        width: 70%;
+    }
+}
+
+@media (max-width: 390px) {
+    .form {
+        width: 80%;
+    }
+}
+
+@media (max-width: 340px) {
+    .form {
+        width: 90%;
+    }
+}

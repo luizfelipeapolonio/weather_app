@@ -20,7 +20,7 @@
     font-weight: 500;
     margin: 0.5rem;
     padding: 0.8rem 0.3rem;
-    min-width: 33%;
+    width: 45%;
     border-radius: 5px;
     background-color: #d24c1d;
     color: #f1f1f1;
@@ -164,4 +164,68 @@
     color: #f1f1f1;
     text-align: center;
     margin: auto;
+}
+
+/* ===== Media Queries =====  */
+@media (max-width: 900px) {
+    .details .feels_like,
+    .details .humidity,
+    .details .temp_max,
+    .details .temp_min,
+    .details .wind,
+    .details .clouds {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 1.8rem;
+    }
+
+    .details div:nth-child(6) {
+        margin: 0;
+    }
+
+    .weather {
+        width: 100%;
+    }
+}
+
+@media (max-width: 760px) {
+    .container {
+        max-width: 85%;
+    }
+
+    .suggestions button {
+        width: 45%;
+    }
+}
+
+@media (max-width: 570px) {
+    .container {
+        flex-direction: column;
+        max-width: 80%;
+    }
+
+    .weather {
+        margin-bottom: 1rem;
+    }
+
+    .details {
+        margin: 0;
+    }
+}
+
+@media (max-width: 510px) {
+    .suggestions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .suggestions button {
+        width: 80%;
+    }
+}
+
+@media (max-width: 325px) {
+    .details {
+        text-align: center;
+    }
 }
