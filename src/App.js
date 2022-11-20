@@ -17,8 +17,6 @@ function App() {
   const [cityName, setCityName] = useState(null);
   const { weatherInfo, loading } = useFetchWeather(cityName);
 
-  console.log("Componente App: ", cityName);
-
   return (
     <div>
       <Header />

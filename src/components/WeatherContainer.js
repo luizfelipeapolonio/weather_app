@@ -3,6 +3,8 @@ import styles from "./WeatherContainer.module.css";
 
 // Components
 import Loading from "./Loading";
+
+// Icons
 import { 
     BsFillGeoAltFill, 
     BsThermometerHigh, 
@@ -30,10 +32,10 @@ const WeatherContainer = ({ city, handleSubmit, loading, weather }) => {
         handleSubmit(e.target.innerText);
     }
 
-    if(weather) {
-        console.log("weather description ", weather);
-        console.log("COD ", weather.cod);
-    }
+    // if(weather) {
+    //     console.log("weather description ", weather);
+    //     console.log("COD ", weather.cod);
+    // }
 
     // Hide the suggested cities
     if(loading) {
