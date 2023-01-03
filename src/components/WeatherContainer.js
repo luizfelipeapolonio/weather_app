@@ -66,7 +66,8 @@ const WeatherContainer = ({ city, handleSubmit, loading, weather }) => {
                         <div className={styles.city}>
                             <BsFillGeoAltFill />
                             <h2>{weather.name}</h2>
-                            <img 
+                            <img
+                                crossOrigin="anonymous" 
                                 src={`${countryFlag}${weather.sys.country}`} 
                                 alt="Country Flag"
                             />
