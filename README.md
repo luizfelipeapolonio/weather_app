@@ -1,8 +1,8 @@
 # City Weather App
 
-Aplicação feita em React JS, consumindo a OpenWeather API, que consulta e exibe os dados do clima da cidade desejada. Possui layout responsivo, e também foi utilizada a Country Flag API que exibe a bandeira do país ao qual a cidade pesquisada pertence.
+Aplicação feita em React JS, consumindo a OpenWeather API, que consulta e exibe os dados do clima da cidade desejada. Possui layout responsivo, e também foi utilizado a Country Flag API para exibir a bandeira do país ao qual a cidade pesquisada pertence.
 
-<img src="./gif/WeatherAppGIF.gif" width="1000px" alt="Gif demonstração do projeto" />
+<img src="./gif/WeatherAppGIF.gif" width="900px" alt="Gif demonstração do projeto" />
 
 # Getting Started with Create React App
 
