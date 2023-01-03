@@ -1,8 +1,8 @@
-# BMovies - Filmes mais bem avaliados
+# City Weather App
 
-Site feito em React JS e consumindo a TMDB API, que lista os filmes mais bem avaliados. Possui funções como layout responsivo, carregamento dos filmes com scroll infinito, função de busca e informações sobre cada filme
+Aplicação feita em React JS, consumindo a OpenWeather API, que consulta e exibe os dados do clima da cidade desejada. Possui layout responsivo, e também foi utilizada a Country Flag API que exibe a bandeira do país ao qual a cidade pesquisada pertence.
 
-<img src="./gif/WeatherAppGIF.gif" alt="Gif demonstração do projeto" />
+<img src="./gif/WeatherAppGIF.gif" width="1000px" alt="Gif demonstração do projeto" />
 
 # Getting Started with Create React App
 
