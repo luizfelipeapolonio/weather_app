@@ -2,7 +2,7 @@
 
 Aplicação feita em React JS, consumindo a OpenWeather API, que consulta e exibe os dados do clima da cidade desejada, e a Country Flags API para exibir a bandeira do país ao qual a cidade pesquisada pertence. Possui layout responsivo, totalmente adaptado para dispositivos mobile.
 
-<img src="./gif/WeatherAppGIF.gif" alt="Gif demonstração do projeto" />
+<img src="./assets/WeatherAppGIF.gif" alt="Gif demonstração do projeto" />
 
 ## 💻 Tecnologias utilizadas
 As seguintes ferramentas foram utilizadas na construção do projeto:
