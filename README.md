@@ -32,6 +32,8 @@ $ cd weather_app
  $ npm install
 ```
 * Agora, com o auxílio de um editor de códigos, criamos um arquivo `.env` na raíz da aplicação:
+<img src="./assets/env_file.png" alt="Criação do arquivo .env" />
+
 * Dentro do arquivo `.env`, coloque sua chave de acesso da OpenWeather API, e os endpoints das APIs, seguindo este modelo:
 ```
 REACT_APP_API_KEY=&appid="Sua chave de acesso, sem as aspas"
