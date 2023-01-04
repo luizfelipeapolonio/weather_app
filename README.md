@@ -47,5 +47,8 @@ $ npm start
 ```
 * A aplicação irá abrir automaticamente no seu navegador na porta:3000, caso não abra, acesse http://localhost:3000
 
+## 📝 Licença
+Este repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido neste repositório.
+
 ## Autor
 Feito com 💜 por luizfelipeapolonio
