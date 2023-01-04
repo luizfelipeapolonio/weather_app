@@ -4,10 +4,6 @@ Aplicação feita em React JS, consumindo a OpenWeather API, que consulta e exib
 
 <img src="./assets/WeatherAppGIF.gif" alt="Gif demonstração do projeto" />
 
-<img src="./assets/mobile_1.png" alt="Layout para mobile 1" />
-<img src="./assets/mobile_2.png" alt="Layout para mobile 2" />
-<img src="./assets/mobile_3.png" alt="Layout para mobile 3" />
-
 ## 💻 Tecnologias utilizadas
 As seguintes ferramentas foram utilizadas na construção do projeto:
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) | [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
